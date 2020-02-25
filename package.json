@@ -1,0 +1,34 @@
+{
+  "name": "hyipnetserver",
+  "version": "1.0.0",
+  "description": "sever on hyipnet",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js "
+  },
+  "author": "Barsukov V.E.",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "express-paginate": "^1.0.0",
+    "express-validator": "^6.4.0",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvebars/hyipnetBACK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bvebars/hyipnetBACK/issues"
+  },
+  "homepage": "https://github.com/bvebars/hyipnetBACK#readme"
+}
